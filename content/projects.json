@@ -7,9 +7,9 @@
     "status": "Live product",
     "headline": "Property operations, connected.",
     "summary": "I led discovery, product definition, testing and launch—then followed through with onboarding, demonstrations and analytics.",
-    "url": "https://propertybridge.io/",
+    "url": "https://www.propertybridge.io/",
     "linkLabel": "Visit product",
-    "highlight": "₦412,500 reported revenue",
+    "highlight": "Over ₦500k reported revenue",
     "year": "2026",
     "sections": [
       {
@@ -38,7 +38,7 @@
       },
       {
         "label": "Reported outcomes",
-        "text": "₦412,500 revenue; 11 demos; 138% site-session growth; 230% new-user growth. Revenue and demos were reported for July 20–October 7, 2026; the growth comparison covers July and August only. Revenue is an early commercial result, not annual recurring revenue. The growth figures compare August 1–31 with July 20–31, 2026. July is a partial month, so this is not an equal-duration comparison."
+        "text": "Over ₦500k in reported revenue. Revenue is an early commercial result, not annual recurring revenue. Separately, 11 demos were reported for July 20–October 7, 2026. Site-session growth of 138% and new-user growth of 230% compare August 1–31 with July 20–31, 2026. July is a partial month, so this is not an equal-duration comparison."
       },
       {
         "label": "Tools and environments",
@@ -63,7 +63,8 @@
       "analytics",
       "post-launch learning"
     ],
-    "index": 1
+    "index": 1,
+    "revenueDisplay": "Over ₦500k"
   },
   {
     "name": "Chayim Diagnostics",
@@ -114,7 +115,8 @@
       "WordPress content management",
       "operational outcome tracking"
     ],
-    "index": 2
+    "index": 2,
+    "revenueDisplay": null
   },
   {
     "name": "LearnED",
@@ -169,7 +171,8 @@
       "research synthesis",
       "group collaboration"
     ],
-    "index": 3
+    "index": 3,
+    "revenueDisplay": null
   },
   {
     "name": "AfriBite",
@@ -229,7 +232,8 @@
       "project monitoring",
       "collaboration across disciplines"
     ],
-    "index": 4
+    "index": 4,
+    "revenueDisplay": null
   },
   {
     "name": "TravelMet",
@@ -288,7 +292,8 @@
       "AI-assisted design",
       "visual communication"
     ],
-    "index": 5
+    "index": 5,
+    "revenueDisplay": null
   },
   {
     "name": "Mikaelson Initiative Website",
@@ -343,7 +348,8 @@
       "user journey design",
       "team coordination"
     ],
-    "index": 6
+    "index": 6,
+    "revenueDisplay": null
   },
   {
     "name": "RIO AI",
@@ -401,7 +407,8 @@
       "design review",
       "coordination across engineering disciplines"
     ],
-    "index": 7
+    "index": 7,
+    "revenueDisplay": null
   },
   {
     "name": "GroomingHer",
@@ -462,6 +469,7 @@
       "AI-assisted prototyping",
       "build/deployment workflows"
     ],
-    "index": 8
+    "index": 8,
+    "revenueDisplay": null
   }
 ]
