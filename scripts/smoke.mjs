@@ -22,6 +22,8 @@ try{
      const response=await page.goto(base+route);assert.equal(response.status(),200,route);
      await page.evaluate(()=>document.fonts.ready);
      await page.locator('h1').waitFor();
+     await page.evaluate(async()=>{await Promise.all([...document.images].map(img=>{img.loading='eager';return img.decode();}));});
+     assert.equal(await page.locator('img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)),true,`Images ${route}`);
      const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);assert.equal(overflow,false,`Overflow ${width} ${route}`);
      if(width===1440){await page.emulateMedia({reducedMotion:'reduce'});const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();assert.deepEqual(result.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),[],`Accessibility ${route}`);await page.emulateMedia({reducedMotion:'no-preference'});}
      if(route.includes('/case-studies/')&&route!='/case-studies/'||route.includes('/teardowns/')&&route!='/teardowns/')await page.locator('#skills').waitFor();
@@ -46,5 +48,5 @@ try{
  const saved=await readFile(await download.path());assert.equal(createHash('sha256').update(saved).digest('hex'),createHash('sha256').update(original).digest('hex'));
  for(const route of ['/','/about/','/contact/']){await page.goto(base+route);assert.equal(await page.locator(`a[href="${cvPath}"][download]`).count()>=3,true,`Resume actions ${route}`);}
  assert.deepEqual(failures,[],'Browser errors');
- console.log(`PASS: ${routes.length} routes at 3 sizes, direct visits and refreshes; WCAG automated checks on every route; mobile keyboard/menu; email, phone, GitHub; no-JS content; reduced motion; preview indexing; sharing asset; original PDF response, navbar download and resume actions. Screenshots: /tmp/portfolio-review`);
+ console.log(`PASS: ${routes.length} routes at 3 sizes, direct visits and refreshes; WCAG automated checks on every route; mobile keyboard/menu; email, phone, GitHub; no-JS content; reduced motion; preview indexing; sharing asset; original PDF response, navbar download and resume actions; all image assets decode. Screenshots: /tmp/portfolio-review`);
 }finally{if(browser)await browser.close();await api.dispose();server.kill();}

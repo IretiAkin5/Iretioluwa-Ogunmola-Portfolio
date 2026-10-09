@@ -64,7 +64,14 @@
       "post-launch learning"
     ],
     "index": 1,
-    "revenueDisplay": "Over ₦500k"
+    "revenueDisplay": "Over ₦500k",
+    "image": {
+      "src": "/images/propertybridge.webp",
+      "alt": "PropertyBridge promotional graphic showing its property-operations dashboard",
+      "width": 1000,
+      "height": 1251,
+      "caption": "Product promotional graphic"
+    }
   },
   {
     "name": "Chayim Diagnostics",
@@ -116,7 +123,14 @@
       "operational outcome tracking"
     ],
     "index": 2,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": {
+      "src": "/images/chayim-diagnostics.webp",
+      "alt": "Chayim Diagnostics brand graphic",
+      "width": 1080,
+      "height": 784,
+      "caption": "Chayim Diagnostics"
+    }
   },
   {
     "name": "LearnED",
@@ -172,7 +186,8 @@
       "group collaboration"
     ],
     "index": 3,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": null
   },
   {
     "name": "AfriBite",
@@ -233,7 +248,8 @@
       "collaboration across disciplines"
     ],
     "index": 4,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": null
   },
   {
     "name": "TravelMet",
@@ -293,7 +309,8 @@
       "visual communication"
     ],
     "index": 5,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": null
   },
   {
     "name": "Mikaelson Initiative Website",
@@ -349,7 +366,14 @@
       "team coordination"
     ],
     "index": 6,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": {
+      "src": "/images/mikaelson-initiative.webp",
+      "alt": "Mikaelson Initiative logo",
+      "width": 1019,
+      "height": 917,
+      "caption": "Mikaelson Initiative"
+    }
   },
   {
     "name": "RIO AI",
@@ -408,7 +432,14 @@
       "coordination across engineering disciplines"
     ],
     "index": 7,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": {
+      "src": "/images/rio-ai.webp",
+      "alt": "RIO AI interface design preview; app features remain in development",
+      "width": 502,
+      "height": 618,
+      "caption": "Design preview · App in development"
+    }
   },
   {
     "name": "GroomingHer",
@@ -470,6 +501,7 @@
       "build/deployment workflows"
     ],
     "index": 8,
-    "revenueDisplay": null
+    "revenueDisplay": null,
+    "image": null
   }
 ]

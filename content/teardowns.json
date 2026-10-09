@@ -92,18 +92,18 @@
     "name": "Claude AI",
     "slug": "claude-ai",
     "year": "2026",
-    "role": "Collaborative project supervisor",
+    "role": "Co-supervisor",
     "headline": "More locally relevant AI proposals.",
-    "summary": "I collaborated in supervising the team, guided affordability recommendations for Nigerian users and reviewed the presentation.",
+    "summary": "I co-supervised the team alongside another supervisor. My contributions included affordability guidance for Nigerian users and presentation review.",
     "focus": "Local-market thinking",
     "sections": [
       {
         "label": "Context",
-        "text": "Team teardown · Collaborative project supervision; not employment at Anthropic."
+        "text": "Team teardown jointly supervised by me and another supervisor; not employment at Anthropic."
       },
       {
         "label": "My contribution",
-        "text": "I collaborated with other supervisors in supervising and reviewing the team’s work on Claude’s background, problem, evolution, value proposition, audience, positioning, features, survey feedback and competitor benchmarking. I did not directly conduct all of this analysis."
+        "text": "I was one of two supervisors on this project. We jointly supervised and reviewed the team’s work on Claude’s background, problem, evolution, value proposition, audience, positioning, features, survey feedback and competitor benchmarking. My personal contributions included guiding affordability recommendations for Nigerian users and reviewing the presentation. The wider analysis was the team’s work."
       },
       {
         "label": "A decision I influenced",
@@ -123,7 +123,7 @@
       },
       {
         "label": "Outcome",
-        "text": "A more focused team proposal. Features were recommendations, not shipped changes. The analysis does not establish current pricing or verification limitations."
+        "text": "A more focused team proposal, developed by the team with joint supervision. Features were recommendations, not shipped changes. The analysis does not establish current pricing or verification limitations."
       }
     ],
     "skills": [

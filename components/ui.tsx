@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowIcon, StarIcon } from './icons';
 import { projects, resume, site, type Project, type Teardown } from '@/content/site';
 export function Arrow() {return <span className="arrow"><ArrowIcon/></span>}
@@ -7,6 +8,7 @@ export function Eyebrow({children}:{children:React.ReactNode}){return <p classNa
 export function SectionHeading({eyebrow,title,description,href,action}:{eyebrow:string;title:string;description?:string;href?:string;action?:string}) {return <div className="section-heading" data-reveal><div><Eyebrow>{eyebrow}</Eyebrow><h2>{title}</h2>{description&&<p className="section-intro">{description}</p>}</div>{href&&<Link className="text-link" href={href}>{action}<Arrow/></Link>}</div>}
 export function Status({text}:{text:string}){return <span className={`status ${text.startsWith('Live')?'live':text.includes('development')?'development':'study'}`}><span aria-hidden="true"/>{text}</span>}
 export function ProjectArt({project}:{project:Project}){
+ if(project.image)return <figure className={`project-art supplied-art art-${project.slug}`}><Image src={project.image.src} alt={project.image.alt} width={project.image.width} height={project.image.height} sizes="(max-width: 767px) 100vw, 40vw"/><figcaption>{project.image.caption}</figcaption></figure>;
  const code = {'propertybridge':'PB','chayim-diagnostics':'ch','learned':'Le','afribite':'ab','travelmet':'tm','mikaelson-initiative':'mi','rio-ai':'rio','groomingher':'gh'}[project.slug];
  return <div className={`project-art art-${project.slug}`} aria-hidden="true"><div className="art-grid"/><span className="art-sector">{project.sector}</span><div className="art-orbit orbit-one"/><div className="art-orbit orbit-two"/><div className="art-icon">{code}<span><StarIcon/></span></div><div className="art-bottom"><span>{project.name}</span><span>{project.year}</span></div></div>;
 }

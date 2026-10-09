@@ -6,7 +6,7 @@ Verified in the cloud workspace on 9 October 2026. This is a locally verified im
 
 - Next.js 16.4 / React 19 / TypeScript / Tailwind CSS static export.
 - Six primary pages, eight project stories, four self-contained teardown stories and a custom 404.
-- Original white/magenta/pink design, responsive typography, themed project illustrations and locally hosted fonts. No invented portrait or product screenshots.
+- Original white/magenta/pink design, responsive typography and locally hosted fonts. Home and About now use the owner-supplied portrait. Four projects use owner-supplied artwork; the remaining covers are original illustrations.
 - Shared project records across homepage cards, product listings and story pages.
 - Approved statuses, project-specific tools, contribution boundaries and skills. Group studies and proposals distinguished from launched work.
 - PropertyBridge revenue/demo window kept separate from its unequal-period July/August growth comparison. Chayim result-access measure shown with its weekly context.
@@ -36,7 +36,7 @@ Verified in the cloud workspace on 9 October 2026. This is a locally verified im
 1. The original CV PDF has now been supplied, bundled without modification and enabled. Its SHA-256 matches the upload: `bb35b0af587f7facc0989fda49f36cf2e41796cb5708f5b987a3b3f8c7a5317b`. The browser smoke check verifies the served PDF, download and Resume action placements.
 2. No authenticated hosting deployment tool is available. The user supplied `https://io-tpm-portfolio.vercel.app/`; that address alone does not grant deployment access. GitHub publishing and live verification status are recorded below.
 3. Production-origin sharing previews, robots and sitemap must be checked on the actual host after deploying. Preview builds remain noindex.
-4. Screenshots, portrait and genuine recommendations were not attached. Portrait and recommendations are optional; the site uses original illustrations and a typographic hero.
+4. The portrait and four project graphics were subsequently supplied in a ZIP and bundled as optimised WebP assets. Reference screenshots and genuine recommendations remain unavailable; recommendations remain hidden.
 
 ## Cloud configuration
 
@@ -49,3 +49,7 @@ The original CV was added unchanged and verified by both file hash and an actual
 The tested website was pushed to `IretiAkin5/Iretioluwa-Ogunmola-Portfolio` on `main`. The initial website commit is `ba28bb1042be2f1adc3749dd3eb4e83fca0ab1a3`; a read-only remote check matched it to the local commit. Netlify can now import the populated repository.
 
 The provided Vercel address remains unverified: this environment's network proxy returns a CONNECT 403 before reaching the site. The host was added to the cloud network draft without removing existing entries. No failure of the Vercel application itself is inferred from that proxy refusal, and no Vercel deployment is claimed.
+
+## Supplied images and explicit shared supervision
+
+All five ZIP images are now used: portrait on Home/About, project imagery across shared cards/Products/stories. WebP preparation retains the supplied image content; no generated or replacement portrait is used. RIO’s image is captioned as a design preview with the app in development. Claude’s role is Co-supervisor; its public summary credits another supervisor, and the contribution explicitly states “I was one of two supervisors.”

@@ -31,7 +31,7 @@ npm run test:smoke
 - `components/`: shared navigation, cards, illustrations, story elements and footer.
 - `app/globals.css`: brand colours, spacing, responsive styles and reduced-motion rules.
 
-Project cover graphics are original typographic illustrations, not product screenshots. No portrait or testimonials have been invented. Do not publish private source documents as assets. The `docs/` directory is source-only and is not included in the exported public site.
+PropertyBridge, Chayim, Mikaelson and RIO use owner-supplied project images stored in `public/images/` and referenced from their shared records. RIO’s image is a design preview. Other covers remain original typographic illustrations. Home and About use the owner-supplied portrait; no portrait or testimonials have been invented. Replace approved image files and their record dimensions/alt text together when updating assets. Do not publish private source documents as assets. The `docs/` directory is source-only and is not included in the exported public site.
 
 ## Add the original resume
 
