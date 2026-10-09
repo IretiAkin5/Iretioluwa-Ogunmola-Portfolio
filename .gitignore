@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+.netlify/
+test-results/
+playwright-report/
+# Original supplied documents may contain private evidence links; keep them local.
+docs/approved-content.md
+docs/implementation-plan.md

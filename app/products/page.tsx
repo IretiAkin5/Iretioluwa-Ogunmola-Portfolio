@@ -1,0 +1,6 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { PageIntro, ProjectArt, Status, Arrow, ContactInvite } from '@/components/ui';
+import { projects } from '@/content/site';
+export const metadata:Metadata={title:'Products',description:'Explore products Iretioluwa has helped shape, from live services to group concepts and prototypes in development.'};
+export default function Products(){return <><PageIntro eyebrow="PRODUCTS" title="Products I’ve helped shape." emphasis="Ideas I’m developing." description="A quick view of the products behind my work. Clear stages, personal contributions and the stories behind the decisions."/><section className="container products-list" aria-label="All eight products">{projects.map(p=><article className="product-row" key={p.slug} data-reveal><ProjectArt project={p}/><div className="product-row-copy"><div className="card-meta">{p.sector} / {p.year}</div><h2>{p.name}</h2><Status text={p.status}/><p>{p.summary}</p><p className="card-role">{p.role}</p><div className="actions"><Link className="text-link" href={`/case-studies/${p.slug}/`}>Read product story <Arrow/></Link>{p.url&&<a className="text-link muted-link" href={p.url} target="_blank" rel="noopener noreferrer">{p.linkLabel}<Arrow/></a>}</div></div></article>)}</section><ContactInvite/></>}

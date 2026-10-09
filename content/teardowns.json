@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "year": "2025",
+    "role": "Collaborative teardown",
+    "headline": "Direct WebP export for web creators.",
+    "summary": "I researched a WebP export proposal and created the team’s presentation slides.",
+    "focus": "Workflow analysis",
+    "sections": [
+      {
+        "label": "Context",
+        "text": "Collaborative product teardown."
+      },
+      {
+        "label": "My contribution",
+        "text": "I researched the WebP export feature proposal and created the presentation slides using Canva."
+      },
+      {
+        "label": "Problem identified in the 2025 analysis",
+        "text": "The team identified a need for users preparing web images to avoid separate conversion tools."
+      },
+      {
+        "label": "Recommendation",
+        "text": "Offer direct WebP export to Canva Pro users to simplify preparation of lighter web-ready images. Benefits were expected outcomes, not tested or delivered results."
+      },
+      {
+        "label": "Tools",
+        "text": "Canva for presentation slides."
+      },
+      {
+        "label": "Deliverables",
+        "text": "WebP feature research and presentation slides. The separate bank-transfer proposal was wider team work."
+      },
+      {
+        "label": "Status",
+        "text": "Teardown and proposed feature. Expected benefits were not tested or shipped."
+      }
+    ],
+    "skills": [
+      "Feature research",
+      "workflow analysis",
+      "product opportunity framing",
+      "visual storytelling"
+    ],
+    "roadmap": []
+  },
+  {
+    "name": "Uber vs Bolt",
+    "slug": "uber-vs-bolt",
+    "year": "2025",
+    "role": "Individual comparative teardown",
+    "headline": "Two journeys. Different product choices.",
+    "summary": "A comparison of strategy, positioning and user experience, with recommendations for both platforms.",
+    "focus": "Competitive strategy",
+    "sections": [
+      {
+        "label": "Context",
+        "text": "Individual comparative teardown."
+      },
+      {
+        "label": "My work",
+        "text": "I compared their beginnings, strategies, unique selling points, user reviews and positioning, and developed recommendations based on the analysis."
+      },
+      {
+        "label": "Recommendations explored",
+        "text": "Affordability, app performance, driver satisfaction, clearer pricing and local relevance for Uber; mapping accuracy, payment reliability, safety, cancellations, support and stability for Bolt."
+      },
+      {
+        "label": "Tools",
+        "text": "Google Workspace and Canva."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Comparative analysis, visual comparison and product recommendations."
+      },
+      {
+        "label": "Outcome",
+        "text": "An independent assessment of product choices and improvement opportunities. These are findings from the 2025 analysis, rather than implemented changes or current safety and reliability rankings."
+      }
+    ],
+    "skills": [
+      "Competitor benchmarking",
+      "strategy analysis",
+      "review synthesis",
+      "positioning analysis",
+      "recommendation writing"
+    ],
+    "roadmap": []
+  },
+  {
+    "name": "Claude AI",
+    "slug": "claude-ai",
+    "year": "2026",
+    "role": "Project Supervisor",
+    "headline": "More locally relevant AI proposals.",
+    "summary": "I supervised the team, guided affordability recommendations for Nigerian users and reviewed the presentation.",
+    "focus": "Local-market thinking",
+    "sections": [
+      {
+        "label": "Context",
+        "text": "Team teardown · Project Supervisor; not employment at Anthropic."
+      },
+      {
+        "label": "My contribution",
+        "text": "I supervised and reviewed the team’s work on Claude’s background, problem, evolution, value proposition, audience, positioning, features, survey feedback and competitor benchmarking. I did not directly conduct all of this analysis."
+      },
+      {
+        "label": "A decision I influenced",
+        "text": "The early survey-based suggestions were generic. I challenged the team to consider barriers affecting Nigerian users, helping focus the recommendation on affordability and a proposed Claude Mini plan. The team also proposed international phone-number verification support."
+      },
+      {
+        "label": "Presentation review",
+        "text": "I corrected the presentation flow and requested persona, user flow and roadmap visuals to explain the recommendations more clearly."
+      },
+      {
+        "label": "Tools",
+        "text": "Google Workspace and Canva."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Review feedback, refined feature recommendations and presentation guidance. Personas, flows and roadmap were team outputs I requested and reviewed, not sole-authored work."
+      },
+      {
+        "label": "Outcome",
+        "text": "A more focused team proposal. Features were recommendations, not shipped changes. The analysis does not establish current pricing or verification limitations."
+      }
+    ],
+    "skills": [
+      "Product judgement",
+      "critical review",
+      "local-market thinking",
+      "coaching",
+      "feature evaluation",
+      "presentation storytelling"
+    ],
+    "roadmap": []
+  },
+  {
+    "name": "Let’sChat",
+    "slug": "letschat",
+    "year": "2024",
+    "role": "Independent teardown",
+    "headline": "What would a thoughtful recovery take?",
+    "summary": "Failure analysis and a proposed three-phase roadmap, starting with trust and reliability.",
+    "focus": "Product recovery",
+    "sections": [
+      {
+        "label": "Context",
+        "text": "Independent teardown of an Africa-focused messaging app."
+      },
+      {
+        "label": "My contribution",
+        "text": "I investigated what went wrong and identified trust, security and technical reliability as major concerns in my analysis. I developed a proposed recovery plan and implementation roadmap."
+      },
+      {
+        "label": "Tools",
+        "text": "Notion for documentation; Google Search and ChatGPT for research support."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Failure analysis, recovery proposal and phased implementation roadmap."
+      },
+      {
+        "label": "Outcome",
+        "text": "A proposed sequence from reliability to relevant differentiation and revenue. This was an analytical recovery proposal, not a delivered recovery or relaunch."
+      }
+    ],
+    "skills": [
+      "Problem diagnosis",
+      "trust",
+      "safety thinking",
+      "product strategy",
+      "prioritisation",
+      "roadmapping",
+      "business-model evaluation"
+    ],
+    "roadmap": [
+      {
+        "phase": "01 · 0–3 months",
+        "title": "Restore stability",
+        "text": "Fix bugs and crashes, simplify signup and verification, improve call quality."
+      },
+      {
+        "phase": "02 · 3–9 months",
+        "title": "Differentiate",
+        "text": "Low-data usage, offline messaging, AI summaries and translation, social sharing, mobile-money integration and community calling."
+      },
+      {
+        "phase": "03 · 9–18 months",
+        "title": "Sustainable revenue",
+        "text": "Explore premium features, local advertising and telecom partnerships."
+      }
+    ]
+  }
+]

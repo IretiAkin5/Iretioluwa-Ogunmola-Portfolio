@@ -1,0 +1,467 @@
+[
+  {
+    "name": "PropertyBridge",
+    "slug": "propertybridge",
+    "sector": "PropTech",
+    "role": "Product Management Lead",
+    "status": "Live product",
+    "headline": "Property operations, connected.",
+    "summary": "I led discovery, product definition, testing and launch—then followed through with onboarding, demonstrations and analytics.",
+    "url": "https://propertybridge.io/",
+    "linkLabel": "Visit product",
+    "highlight": "₦412,500 reported revenue",
+    "year": "2026",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "PropertyBridge helps landlords and property managers organise property records, tenants, rent, leases and operational work."
+      },
+      {
+        "label": "Problem",
+        "text": "Manual tracking and disconnected records make it difficult to know what has been paid, what is outstanding and what needs attention."
+      },
+      {
+        "label": "My role",
+        "text": "Product Management Lead at True Horizon Tech. I led research, product definition, pricing, requirements, delivery, testing, launch, onboarding and early analytics."
+      },
+      {
+        "label": "My work",
+        "text": "I translated user and market findings into MVP scope and requirements, coordinated with engineering and stakeholders, and supported demonstrations and customer onboarding. I conducted internal alpha testing with colleagues and stakeholders, followed by beta testing with property managers, landlords, facility managers and lawyers."
+      },
+      {
+        "label": "A delivery example",
+        "text": "Beta testers reported that some information failed to populate after Excel bulk upload. I worked with the developer to identify the affected fields and clarify expected behaviour. The issue was fixed and the information populated correctly afterward."
+      },
+      {
+        "label": "Testing findings",
+        "text": "Feedback from both groups highlighted ease of use, smooth signup/onboarding and relevant functionality. These are qualitative findings, not an A/B experiment or measured onboarding improvement."
+      },
+      {
+        "label": "Reported outcomes",
+        "text": "₦412,500 revenue; 11 demos; 138% site-session growth; 230% new-user growth. Revenue and demos were reported for July 20–October 7, 2026; the growth comparison covers July and August only. Revenue is an early commercial result, not annual recurring revenue. The growth figures compare August 1–31 with July 20–31, 2026. July is a partial month, so this is not an equal-duration comparison."
+      },
+      {
+        "label": "Tools and environments",
+        "text": "Google Analytics; product documentation and collaboration workflows. Next.js, Clerk and Twilio are product technologies; their use is not a claim of independently implemented integrations."
+      },
+      {
+        "label": "Deliverables",
+        "text": "PRD, FRD, user stories, acceptance criteria, roadmap, competitor research, pricing definition, onboarding guidance and analytics requirements."
+      },
+      {
+        "label": "Status",
+        "text": "Live product, launched 20 July 2026."
+      }
+    ],
+    "skills": [
+      "End-to-end product ownership",
+      "discovery",
+      "requirements clarity",
+      "alpha/beta testing",
+      "issue clarification",
+      "engineering collaboration",
+      "analytics",
+      "post-launch learning"
+    ],
+    "index": 1
+  },
+  {
+    "name": "Chayim Diagnostics",
+    "slug": "chayim-diagnostics",
+    "sector": "HealthTech",
+    "role": "Product content & customer experience",
+    "status": "Website work delivered",
+    "headline": "A clearer path to results.",
+    "summary": "Customer feedback became a clearer results-access journey, alongside WordPress content and diagnostic test updates.",
+    "url": "https://www.chayimds.com/",
+    "linkLabel": "Visit website",
+    "highlight": "~10 → 1 weekly access complaints",
+    "year": "2023–2024",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "A healthcare website with diagnostic test offerings and a patient portal for accessing results."
+      },
+      {
+        "label": "Problem",
+        "text": "Users reported difficulty navigating from login to their results."
+      },
+      {
+        "label": "My role",
+        "text": "I reviewed content and uploaded diagnostic test offerings using WordPress after the first build in 2023. In 2024, I reviewed user feedback, recommended improvements to management and supported interface/journey changes."
+      },
+      {
+        "label": "Outcome",
+        "text": "The number of clients reporting difficulty accessing results fell from around 10 per week to 1 per week following the improvements. This is a user-reported operational measure, not a controlled experiment or a claim about all complaints."
+      },
+      {
+        "label": "Tools",
+        "text": "WordPress; customer feedback."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Updated test listings, reviewed content and recommendations for the results-access journey."
+      },
+      {
+        "label": "Status",
+        "text": "Website improvements delivered."
+      }
+    ],
+    "skills": [
+      "Feedback analysis",
+      "customer journey improvement",
+      "stakeholder communication",
+      "WordPress content management",
+      "operational outcome tracking"
+    ],
+    "index": 2
+  },
+  {
+    "name": "LearnED",
+    "slug": "learned",
+    "sector": "EdTech",
+    "role": "Group-project contributor",
+    "status": "Group case study · Not live",
+    "headline": "Learning with fewer barriers.",
+    "summary": "Personas, problem definition and market sizing for an inclusive, multilingual and offline-friendly learning concept.",
+    "url": "",
+    "linkLabel": "",
+    "highlight": "Personas · Problem framing · Market sizing",
+    "year": "2025",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "An EdTech concept developed by Team 4 during the Women Techsters Bootcamp with Tech4Dev. It proposes multilingual content, offline access and personalised learning for students aged 13–18, especially in underserved Nigerian communities."
+      },
+      {
+        "label": "My role",
+        "text": "Group-project contributor"
+      },
+      {
+        "label": "Problem",
+        "text": "Language barriers, one-size-fits-all learning and limited inclusive resources can exclude learners."
+      },
+      {
+        "label": "My contribution",
+        "text": "I developed user personas, defined the problem statement and contributed TAM, SAM and SOM market-sizing analysis. Other parts of the deck were collaborative team work."
+      },
+      {
+        "label": "Tools",
+        "text": "Canva for personas; ChatGPT for research support; Google Docs for documentation."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Persona designs, problem statement and market-sizing analysis, included in the team pitch deck."
+      },
+      {
+        "label": "Outcome",
+        "text": "A group proposal connecting learner needs with a potential product direction. Market estimates are case-study assumptions, not measured demand. No user or commercial impact was measured because the product did not launch."
+      },
+      {
+        "label": "Status",
+        "text": "Group case study · Not live."
+      }
+    ],
+    "skills": [
+      "Problem framing",
+      "persona development",
+      "market sizing",
+      "research synthesis",
+      "group collaboration"
+    ],
+    "index": 3
+  },
+  {
+    "name": "AfriBite",
+    "slug": "afribite",
+    "sector": "Food discovery",
+    "role": "Capstone contributor",
+    "status": "Group capstone · Not launched",
+    "headline": "Connecting food and culture.",
+    "summary": "Personas, user flows and product direction for an African food discovery and ordering concept.",
+    "url": "",
+    "linkLabel": "",
+    "highlight": "Research translated into product direction",
+    "year": "2024",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "A concept connecting African food lovers with restaurants and food offerings."
+      },
+      {
+        "label": "Problem explored",
+        "text": "The concept explores how African food lovers can discover restaurants and food offerings."
+      },
+      {
+        "label": "My role",
+        "text": "Capstone contributor"
+      },
+      {
+        "label": "Context and role",
+        "text": "Capstone during my three-month Product Management internship at HerTechTrail. I collaborated with product managers, designers and developers."
+      },
+      {
+        "label": "My contribution",
+        "text": "User personas, user flows, PRD and product strategy documentation; monitoring project progress in Jira."
+      },
+      {
+        "label": "Tools",
+        "text": "Canva for personas; Figma for user flows; Confluence for the PRD and product strategy; Jira for project monitoring."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Personas, user flows, PRD and product strategy documentation."
+      },
+      {
+        "label": "Outcome",
+        "text": "A collaborative capstone with documented user needs and product direction. The concept was not launched and has no measured user or commercial results."
+      },
+      {
+        "label": "Status",
+        "text": "Capstone case study · Not launched."
+      }
+    ],
+    "skills": [
+      "Persona development",
+      "user flow mapping",
+      "requirements writing",
+      "product strategy",
+      "project monitoring",
+      "collaboration across disciplines"
+    ],
+    "index": 4
+  },
+  {
+    "name": "TravelMet",
+    "slug": "travelmet",
+    "sector": "Travel",
+    "role": "Group-project contributor",
+    "status": "Group case study",
+    "headline": "Making travel feel more accessible.",
+    "summary": "Low- and high-fidelity designs for two proposed MVP features: Offline Mode and Live Translator.",
+    "url": "",
+    "linkLabel": "",
+    "highlight": "Two MVP feature journeys designed",
+    "year": "2025",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "A travel-companion concept addressing travel access and language needs."
+      },
+      {
+        "label": "Problem explored",
+        "text": "The concept explores travel access and language needs, with proposed offline and translation journeys."
+      },
+      {
+        "label": "My role",
+        "text": "Group-project contributor"
+      },
+      {
+        "label": "Context",
+        "text": "Group project during my six-month Advanced Product Management course at PBL Academy."
+      },
+      {
+        "label": "My contribution",
+        "text": "I designed low- and high-fidelity wireframes for two MVP features: Offline Mode and Live Translator."
+      },
+      {
+        "label": "Tools",
+        "text": "Stitch AI and Figma."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Low- and high-fidelity feature wireframes."
+      },
+      {
+        "label": "Outcome",
+        "text": "Visual feature designs that made the proposed journeys tangible for team review. These were feature designs, with no implementation or measured user impact."
+      },
+      {
+        "label": "Status",
+        "text": "Group case study with MVP feature designs · Not presented as a launched product."
+      }
+    ],
+    "skills": [
+      "Feature definition",
+      "user journey design",
+      "wireframing",
+      "AI-assisted design",
+      "visual communication"
+    ],
+    "index": 5
+  },
+  {
+    "name": "Mikaelson Initiative Website",
+    "slug": "mikaelson-initiative",
+    "sector": "Community",
+    "role": "Website structure & content",
+    "status": "Live website · December 2025",
+    "headline": "A community, clearly understood.",
+    "summary": "A restructured website, revised content and a clearer journey through programmes and participation.",
+    "url": "https://www.mikaelsoninitiative.org/",
+    "linkLabel": "Visit website",
+    "highlight": "Restructured website released December 2025",
+    "year": "2025",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "The initiative’s website introduces its community, programmes and ways to participate."
+      },
+      {
+        "label": "Problem explored",
+        "text": "Visitors needed a clearer journey to understand the community, its programmes and ways to participate."
+      },
+      {
+        "label": "My role",
+        "text": "Website structure & content"
+      },
+      {
+        "label": "My contribution",
+        "text": "I changed the entire website structure for its December 2025 release, wrote website content and a PRD, and developed a clearer user journey so visitors could understand what the community provides."
+      },
+      {
+        "label": "Tools",
+        "text": "Google Workspace; Google Chat for team coordination."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Website content, PRD, revised website structure and user journey."
+      },
+      {
+        "label": "Outcome",
+        "text": "A released website with the revised structure and content. Clarity was the design goal; conversion and engagement uplift were not measured."
+      },
+      {
+        "label": "Status",
+        "text": "Live website · Released December 2025."
+      }
+    ],
+    "skills": [
+      "Website information organisation",
+      "content strategy",
+      "requirements writing",
+      "user journey design",
+      "team coordination"
+    ],
+    "index": 6
+  },
+  {
+    "name": "RIO AI",
+    "slug": "rio-ai",
+    "sector": "AI productivity",
+    "role": "Product Lead",
+    "status": "All MVP features in development",
+    "headline": "From intention to everyday routines.",
+    "summary": "Research, strategy and requirements for an AI productivity companion for African young people.",
+    "url": "https://rio-site-bice.vercel.app/",
+    "linkLabel": "View landing page",
+    "highlight": "Product definition completed · Engineering ongoing",
+    "year": "2026",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "RIO AI is a web and mobile productivity and habit-building product for African young people. It is designed to help users build routines, track progress and stay accountable."
+      },
+      {
+        "label": "Problem explored",
+        "text": "Difficulty maintaining focus and consistency, fragmented tools and limited visibility of progress. These are research and product-planning findings, not claims that competing products cannot address them."
+      },
+      {
+        "label": "My role",
+        "text": "Product lead from ideation into development, coordinating designers, frontend and backend developers, Flutter developers and an AI automation engineer."
+      },
+      {
+        "label": "My contribution",
+        "text": "Research, product strategy, roadmap, PRD and FRD; discussions on product design and architecture; team coordination."
+      },
+      {
+        "label": "Planned MVP",
+        "text": "Daily/weekly goals and habits; commitment check-ins; task creation and reminders; daily streaks; end-of-day accomplishment reports; AI encouragement; basic productivity insights. The scope was documented using MoSCoW prioritisation."
+      },
+      {
+        "label": "Tools",
+        "text": "Google Forms for surveys, Google Docs, Jira and Figma. Vercel and Render were used on the project, with infrastructure work handled collaboratively."
+      },
+      {
+        "label": "Deliverables",
+        "text": "Research, strategy, roadmap, PRD, FRD and reviewed product direction."
+      },
+      {
+        "label": "Outcome and status",
+        "text": "Product definition completed and engineering work ongoing. All listed MVP features remain in development. The public landing page is separate from the unreleased app; no productivity improvement has been measured."
+      }
+    ],
+    "skills": [
+      "Research",
+      "AI product scoping",
+      "strategy",
+      "roadmapping",
+      "requirements writing",
+      "prioritisation",
+      "design review",
+      "coordination across engineering disciplines"
+    ],
+    "index": 7
+  },
+  {
+    "name": "GroomingHer",
+    "slug": "groomingher",
+    "sector": "Health education",
+    "role": "Founder & Product Manager",
+    "status": "Prototype in development",
+    "headline": "Growing with understanding.",
+    "summary": "A Christian health-education concept for Nigerian girls, with connected girl, parent and school journeys.",
+    "url": "",
+    "linkLabel": "",
+    "highlight": "Defined first-version scope · Proposed pilot",
+    "year": "2026",
+    "sections": [
+      {
+        "label": "Product",
+        "text": "A clearly Christian health-education web-app concept for Nigerian girls, initially aged 13–15, with separate connected girl, parent and school spaces."
+      },
+      {
+        "label": "Problem explored",
+        "text": "Girls need understandable education about body changes and a supportive way to ask for help; parents and schools need practical guidance. These are discovery assumptions to validate."
+      },
+      {
+        "label": "My role",
+        "text": "Founder and Product Manager. I defined the first audience, education-first scope, user journeys, optional diary, chosen sharing, school pilot and implementation direction."
+      },
+      {
+        "label": "Key decision",
+        "text": "The proposed first AI helper explains reviewed lessons; it does not diagnose, read diaries or automatically identify disease. This narrows an ambitious early idea to a more realistic first experience."
+      },
+      {
+        "label": "Deliverables",
+        "text": "PRD with user stories and acceptance criteria, README/product brief, design plan, implementation plan and proposed landing-page copy."
+      },
+      {
+        "label": "Tools used",
+        "text": "OpenCode, Codex, Docker, ChatGPT Plus, Netlify and GitHub for AI-assisted planning and prototyping. Better Auth, Groq API and Resend are implementation choices, rather than completed integrations."
+      },
+      {
+        "label": "Outcome",
+        "text": "A defined first-version scope and proposed six-week pilot. Healthcare review, school participation and funding are not yet secured in the current plan."
+      },
+      {
+        "label": "Status",
+        "text": "Prototype in development. No live-user or clinical outcomes have been measured."
+      },
+      {
+        "label": "What this demonstrates",
+        "text": "Product judgment, scoping, privacy-aware journeys and planning around real access constraints."
+      }
+    ],
+    "skills": [
+      "Product discovery",
+      "scoping",
+      "role-based journeys",
+      "requirements writing",
+      "privacy-aware product decisions",
+      "AI-assisted prototyping",
+      "build/deployment workflows"
+    ],
+    "index": 8
+  }
+]

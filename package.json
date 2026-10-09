@@ -1,0 +1,32 @@
+{
+  "name": "ireti-ogunmola-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "python3 -m http.server 4173 --directory out --bind 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test:smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "@fontsource-variable/manrope": "^5.2.8",
+    "@fontsource/dm-serif-display": "^5.2.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.4.0",
+    "@playwright/test": "^1.58.0",
+    "@axe-core/playwright": "^4.11.0"
+  }
+}

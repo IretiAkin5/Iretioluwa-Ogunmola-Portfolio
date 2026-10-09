@@ -1,0 +1,5 @@
+import type { Metadata } from 'next';
+import { PageIntro, TeardownCard, ContactInvite } from '@/components/ui';
+import { teardowns } from '@/content/site';
+export const metadata:Metadata={title:'Product Teardowns',description:'Canva, Uber vs Bolt, Claude AI and Let’sChat: self-contained analyses, personal contributions and proposed improvements.'};
+export default function Teardowns(){return <><PageIntro eyebrow="PRODUCT TEARDOWNS" title="Looking beyond the interface." emphasis="Understanding the choices." description="These projects show how I examine user needs, journeys and product decisions. Outcomes are analyses and recommendations, rather than shipped changes at the companies studied."/><section className="container collection"><div className="collection-top"><span>04 PRODUCT ANALYSES</span><span>Independent thinking · Collaborative learning</span></div><div className="teardown-grid collection-teardowns">{teardowns.map(t=><TeardownCard key={t.slug} item={t}/>)}</div></section><ContactInvite/></>}

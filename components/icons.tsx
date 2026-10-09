@@ -1,0 +1,2 @@
+export function ArrowIcon({down=false}:{down?:boolean}){return <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" style={down?{transform:'rotate(135deg)'}:undefined}><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/></svg>}
+export function StarIcon(){return <svg width="40" height="40" viewBox="0 0 100 100" aria-hidden="true" fill="none"><path d="M50 12v76M12 50h76M23 23l54 54M23 77l54-54" stroke="currentColor" strokeWidth="12" strokeLinecap="round"/></svg>}
