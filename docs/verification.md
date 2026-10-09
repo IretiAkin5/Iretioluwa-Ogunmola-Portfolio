@@ -41,3 +41,11 @@ Verified in the cloud workspace on 9 October 2026. This is a locally verified im
 ## Cloud configuration
 
 Reusable `install_script` and `start_skill` were saved to the environment configuration draft. Custom network destinations were added for the design reference and supplied product URLs, preserving the package-manager preset. Saving a draft does not publish it or deploy the website. Review and save the cloud environment changes in environment settings, then publish the environment if you want to retain its snapshot and reusable setup.
+
+## GitHub publishing and CV update
+
+The original CV was added unchanged and verified by both file hash and an actual browser download. Updated build, type/lint and 18-page browser checks pass, including Resume placement on Home, About, Contact and the shared navigation/footer.
+
+The tested website was pushed to `IretiAkin5/Iretioluwa-Ogunmola-Portfolio` on `main`. The initial website commit is `ba28bb1042be2f1adc3749dd3eb4e83fca0ab1a3`; a read-only remote check matched it to the local commit. Netlify can now import the populated repository.
+
+The provided Vercel address remains unverified: this environment's network proxy returns a CONNECT 403 before reaching the site. The host was added to the cloud network draft without removing existing entries. No failure of the Vercel application itself is inferred from that proxy refusal, and no Vercel deployment is claimed.

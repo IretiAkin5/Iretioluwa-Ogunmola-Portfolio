@@ -56,7 +56,7 @@ The easiest manual review deployment is to drag the built `out/` folder into Net
 
 For repeatable Git-based publishing:
 
-1. Push this repository to your selected GitHub repository through your normal authenticated workflow.
+1. The website and original CV are now pushed to `IretiAkin5/Iretioluwa-Ogunmola-Portfolio` on `main`. Use that repository and branch.
 2. Connect the repository in Netlify. `netlify.toml` sets the build command to `npm run build`, publish directory to `out`, Node 24, preview indexing and security headers.
 3. Use Netlify deploy previews for changes. The actual deployment URL is exposed automatically through `DEPLOY_PRIME_URL`; sharing metadata uses that for preview builds. `URL` supplies the primary site address. You can set `SITE_URL` to your own verified production origin.
 4. Before public launch, verify the bundled original resume and check all external product links from an unrestricted browser.
@@ -73,6 +73,6 @@ The site implementation and local checks are separate from deployment. Public de
 
 The supplied site address is `https://io-tpm-portfolio.vercel.app/`. A site address identifies a deployment; it does not grant deployment access or automatically populate GitHub. Netlify’s “repository is empty” error means the selected repository needs a commit before it can be imported.
 
-After pushing the website to `main`, retry the repository selection in Netlify. Choose branch `main`, build command `npm run build`, publish directory `out`, and Node 24 (already set in `netlify.toml`). For a review version, leave preview indexing enabled. No environment secrets are needed.
+The website is now pushed to `main`. Refresh and retry the repository selection in Netlify. Choose branch `main`, build command `npm run build`, publish directory `out`, and Node 24 (already set in `netlify.toml`). For a review version, leave preview indexing enabled. No environment secrets are needed.
 
 To deploy on Vercel instead, connect this GitHub repository in the existing Vercel project’s Git settings, select Next.js and Node 24, use `npm run build` and the exported `out` directory. Set `SITE_URL=https://io-tpm-portfolio.vercel.app` for sharing metadata and sitemap; keep `NEXT_PUBLIC_SITE_ENV=preview` while reviewing. Only set it to `production` for the intended public launch. If the Vercel project uses a different Git repository or a manual upload, this repository’s changes will not update it until the project is connected or redeployed.
