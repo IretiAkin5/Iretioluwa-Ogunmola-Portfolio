@@ -26,7 +26,7 @@ npm run test:smoke
 
 - `content/projects.json`: the single record for each of the eight projects. Cards, Products and detailed stories all use these records. Update status, role, summary, sections, tools, skills and URL here once. Keep live products, group studies, unreleased apps and prototypes distinct.
 - `content/teardowns.json`: four self-contained analyses, with contribution, tools, deliverables and skills. Do not add external document links or represent recommendations as shipped work.
-- `content/site.ts`: contact information, experience, current practice, learning and process copy.
+- `content/site.ts`: contact information, experience, current practice, learning, process copy and the homepage’s `featuredProjectSlugs` selection.
 - `app/page.tsx`: homepage introduction and highlights. Preserve the approved section sequence. PropertyBridge revenue/demo dates are separate from growth dates; July is a partial month.
 - `components/`: shared navigation, cards, illustrations, story elements and footer.
 - `app/globals.css`: brand colours, spacing, responsive styles and reduced-motion rules.

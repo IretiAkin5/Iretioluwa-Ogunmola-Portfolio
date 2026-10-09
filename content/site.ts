@@ -40,3 +40,6 @@ export const tools = [
 ];
 
 export const nav = [['Home','/'],['About','/about/'],['Products','/products/'],['Case Studies','/case-studies/'],['Teardowns','/teardowns/'],['Contact','/contact/']];
+
+export const featuredProjectSlugs = ["propertybridge", "chayim-diagnostics", "mikaelson-initiative", "rio-ai"] as const;
+export const featuredProjects = featuredProjectSlugs.map(slug => projects.find(project => project.slug === slug)!);
